@@ -7,7 +7,7 @@ from parsl.addresses import address_by_hostname
 
 
 # Configure options here:
-NODES_PER_JOB = 2
+NODES_PER_JOB = 4
 GPUS_PER_NODE = 4
 GPUS_PER_WORKER = 1
 

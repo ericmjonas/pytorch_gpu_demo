@@ -13,10 +13,10 @@ This tutorial with use Parsl: Parallel programming library for Python to:
 to install the requirements for the demo.
 
 ```
-$ conda create --yes --name parsl_py3.7 python=3.7
+$ conda create --yes --name parsl_py3.7 python=3.7 anaconda
 $ conda activate parsl_py3.7
 $ pip install parsl==1.0.0
-$ conda install -c torch torchvision
+$ conda install -c pytorch torchvision torchaudio cudatoolkit=10.2
 ```
 
 Let's check the environment sanity with a basic mnist application:
